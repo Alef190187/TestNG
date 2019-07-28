@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG Framework Test Automation Suite">
+
+	<test name="Different testng features Tests">
+		<classes>
+			<class name="testngframework.ExpectedException" />
+			<class name="testngframework.GoogleTitleTest" />
+			<class name="testngframework.InvocationCount" />
+			<class name="testngframework.TestNGBasic" />
+			<class name="testngframework.TestNGFeatures" />
+			<class name="testngframework.TestNGFramework1" />
+		</classes>
+	</test>
+
+	
+</suite>

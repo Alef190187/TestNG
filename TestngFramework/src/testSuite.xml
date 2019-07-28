@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameterization Test Suite">
+	<test name="Login Test Parameterization">
+	<parameter name="browser" value="chrome"/>
+	<parameter name="url" value="https://www.facebook.com"/>
+	<parameter name="email" value="alef215"/>
+	<parameter name="password" value="alef215"/>
+		<classes>
+			<class name="com.parameters.ParameterTest" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parameterization Test Suite]">
+  <test thread-count="5" name="Login Test Parameterization(failed)">
+    <parameter name="password" value="alef215"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.facebook.com"/>
+    <parameter name="email" value="alef215"/>
+    <classes>
+      <class name="com.parameters.ParameterTest">
+        <methods>
+          <include name="loginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.parameters.ParameterTest -->
+    </classes>
+  </test> <!-- Login Test Parameterization(failed) -->
+</suite> <!-- Failed suite [Parameterization Test Suite] -->
